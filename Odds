@@ -1,0 +1,10 @@
+public class Odds
+{
+    public static void print(){
+        char[] alphabet = {'a', 'b', 'c', 'd', 'e', 'f'};
+        
+        for (int i=0; i<alphabet.length; i+=2){
+            System.out.println(alphabet[i]);
+        }
+    }
+}
