@@ -1,0 +1,22 @@
+public class ShiftDown
+{
+    public static void shift()
+    {
+        /*
+        take the item in the second position and move it to the first
+        take the item in the third position and move it to the second
+        ...
+        take the item in the nth position and move it to the (n-1)th position
+        */
+        
+        int[] input = {5, 6, 2, 9, 11, -2};
+        int i = 0;
+        while (i < input.length-1)
+        {
+            //System.out.println(input[i]);
+            input[i] = input[i+1];
+            i++;
+        }
+        
+    }
+}
